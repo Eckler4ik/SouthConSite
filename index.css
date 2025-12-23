@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    flex: 0 0 auto;
+}
+
+.shapka {
+    max-width: 100%;
+    display: inline-block;
+}
+.shiBig {
+    flex: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.forest {
+    position: relative;
+}
+
+.treeRight {
+  position: absolute;
+  right: 0;
+}
+
+.treeLeft {
+  position: absolute;
+  left: -12;
+}
+
+.headWrapper {
+    flex-flow: column;
+    display: flex;
+    position: relative;
+}
+
+ .mainEl {
+    position: relative;
+ }
+
+ .fon-wrapper {
+  width: 100%;        /* контейнер занимает всю ширину */
+  height: 1080px;      /* или любая нужная высота */
+  overflow: hidden;   /* обрезает всё, что вылезает */
+}
+
+.fon-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* «обрезает» изображение, чтобы заполнить контейнер */
+}
+
+/* ========== */
+ .podval-wrapper {
+  width: 100%;        /* контейнер занимает всю ширину */
+  height: 540px;      /* или любая нужная высота */
+  overflow: hidden;   /* обрезает всё, что вылезает */
+}
+
+.podval-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* «обрезает» изображение, чтобы заполнить контейнер */
+}
+
+/* .pdi1 {
+    flex: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.podval-items {
+    width: 100%;
+    justify-content: center;
+    bottom: 80px;
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.pdi {
+    height: 100%;
+}
+
+#pdi1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.btnWrapper {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25;
+}
+
+.snetBox {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
